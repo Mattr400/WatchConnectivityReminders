@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7827E6452A335E3500BBCDEF /* iOS_Version_of_Storybook_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6442A335E3500BBCDEF /* iOS_Version_of_Storybook_ProjectApp.swift */; };
+		7827E6472A335E3500BBCDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6462A335E3500BBCDEF /* ContentView.swift */; };
+		7827E6492A335E3600BBCDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7827E6482A335E3600BBCDEF /* Assets.xcassets */; };
+		7827E64C2A335E3600BBCDEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7827E64B2A335E3600BBCDEF /* Preview Assets.xcassets */; };
+		7827E64E2A335E3600BBCDEF /* PersistenceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E64D2A335E3600BBCDEF /* PersistenceContainer.swift */; };
+		7827E6512A335E3600BBCDEF /* iOS_Version_of_Storybook_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7827E64F2A335E3600BBCDEF /* iOS_Version_of_Storybook_Project.xcdatamodeld */; };
+		7827E65B2A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E65A2A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectTests.swift */; };
+		7827E6652A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6642A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITests.swift */; };
+		7827E6672A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6662A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITestsLaunchTests.swift */; };
+		7827E67A2A335EE400BBCDEF /* WatchOS_StorybookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6792A335EE400BBCDEF /* WatchOS_StorybookApp.swift */; };
+		7827E67C2A335EE400BBCDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E67B2A335EE400BBCDEF /* ContentView.swift */; };
+		7827E67E2A335EE500BBCDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7827E67D2A335EE500BBCDEF /* Assets.xcassets */; };
+		7827E6812A335EE500BBCDEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7827E6802A335EE500BBCDEF /* Preview Assets.xcassets */; };
+		7827E68B2A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E68A2A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppTests.swift */; };
+		7827E6952A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6942A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITests.swift */; };
+		7827E6972A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6962A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITestsLaunchTests.swift */; };
+		7827E69A2A335EE500BBCDEF /* WatchOS Storybook Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7827E6772A335EE400BBCDEF /* WatchOS Storybook Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7827E6A72A335F3500BBCDEF /* Reminders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6A52A335F3500BBCDEF /* Reminders.xcdatamodeld */; };
+		7827E6AB2A3360EA00BBCDEF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6AA2A3360EA00BBCDEF /* HomeView.swift */; };
+		7827E6AE2A33612200BBCDEF /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6AD2A33612200BBCDEF /* NavButton.swift */; };
+		7827E6B02A33614000BBCDEF /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6AF2A33614000BBCDEF /* RemindersView.swift */; };
+		7827E6B82A3361A900BBCDEF /* NotifcationSchedulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6B72A3361A900BBCDEF /* NotifcationSchedulerView.swift */; };
+		7827E6BF2A33668500BBCDEF /* Reminders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6A52A335F3500BBCDEF /* Reminders.xcdatamodeld */; };
+		7827E6C22A336AA700BBCDEF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6C12A336AA700BBCDEF /* HomeView.swift */; };
+		7827E6C42A336AF700BBCDEF /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6C32A336AF700BBCDEF /* ButtonStyles.swift */; };
+		7827E6C62A336B0000BBCDEF /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6C52A336B0000BBCDEF /* RemindersView.swift */; };
+		7827E6C82A336B0C00BBCDEF /* AddRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6C72A336B0C00BBCDEF /* AddRemindersView.swift */; };
+		7827E6CA2A336B1500BBCDEF /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6C92A336B1500BBCDEF /* EditListView.swift */; };
+		7827E6CC2A336B2200BBCDEF /* Edit_DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6CB2A336B2200BBCDEF /* Edit_DeleteView.swift */; };
+		7827E6CE2A336B3300BBCDEF /* NotificationSchedulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6CD2A336B3300BBCDEF /* NotificationSchedulerView.swift */; };
+		7827E6D02A3394AD00BBCDEF /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6CF2A3394AD00BBCDEF /* NavButton.swift */; };
+		7827E6D72A33A14500BBCDEF /* PersistenceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E64D2A335E3600BBCDEF /* PersistenceContainer.swift */; };
+		782C71462A44C49900012AAC /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C71452A44C49900012AAC /* EditView.swift */; };
+		782C71472A44C49900012AAC /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C71452A44C49900012AAC /* EditView.swift */; };
+		783994B42A375488002E324B /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783994B32A375488002E324B /* WatchConnector.swift */; };
+		783994B82A375A32002E324B /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6C92A336B1500BBCDEF /* EditListView.swift */; };
+		783994B92A375BF0002E324B /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783994B32A375488002E324B /* WatchConnector.swift */; };
+		783994C32A376B88002E324B /* iOS-Version-of-Storybook-Project-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 783994C12A376B88002E324B /* iOS-Version-of-Storybook-Project-Info.plist */; };
+		783994C62A39FB58002E324B /* AddRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6C72A336B0C00BBCDEF /* AddRemindersView.swift */; };
+		783994C82A39FD00002E324B /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6C32A336AF700BBCDEF /* ButtonStyles.swift */; };
+		783994C92A3A0BA6002E324B /* Edit_DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827E6CB2A336B2200BBCDEF /* Edit_DeleteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7827E6572A335E3600BBCDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7827E6392A335E3500BBCDEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7827E6402A335E3500BBCDEF;
+			remoteInfo = "iOS Version of Storybook Project";
+		};
+		7827E6612A335E3600BBCDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7827E6392A335E3500BBCDEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7827E6402A335E3500BBCDEF;
+			remoteInfo = "iOS Version of Storybook Project";
+		};
+		7827E6872A335EE500BBCDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7827E6392A335E3500BBCDEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7827E6762A335EE400BBCDEF;
+			remoteInfo = "WatchOS Storybook Watch App";
+		};
+		7827E6912A335EE500BBCDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7827E6392A335E3500BBCDEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7827E6762A335EE400BBCDEF;
+			remoteInfo = "WatchOS Storybook Watch App";
+		};
+		7827E6982A335EE500BBCDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7827E6392A335E3500BBCDEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7827E6762A335EE400BBCDEF;
+			remoteInfo = "WatchOS Storybook Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7827E69E2A335EE500BBCDEF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7827E69A2A335EE500BBCDEF /* WatchOS Storybook Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7827E6412A335E3500BBCDEF /* iOS Version of Storybook Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Version of Storybook Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7827E6442A335E3500BBCDEF /* iOS_Version_of_Storybook_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Version_of_Storybook_ProjectApp.swift; sourceTree = "<group>"; };
+		7827E6462A335E3500BBCDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7827E6482A335E3600BBCDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7827E64B2A335E3600BBCDEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7827E64D2A335E3600BBCDEF /* PersistenceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistenceContainer.swift; path = "iOS Version of Storybook Project/PersistenceContainer.swift"; sourceTree = "<group>"; };
+		7827E6502A335E3600BBCDEF /* iOS_Version_of_Storybook_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Version_of_Storybook_Project.xcdatamodel; sourceTree = "<group>"; };
+		7827E6562A335E3600BBCDEF /* iOS Version of Storybook ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Version of Storybook ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7827E65A2A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Version_of_Storybook_ProjectTests.swift; sourceTree = "<group>"; };
+		7827E6602A335E3600BBCDEF /* iOS Version of Storybook ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Version of Storybook ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7827E6642A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Version_of_Storybook_ProjectUITests.swift; sourceTree = "<group>"; };
+		7827E6662A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Version_of_Storybook_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7827E6772A335EE400BBCDEF /* WatchOS Storybook Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchOS Storybook Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7827E6792A335EE400BBCDEF /* WatchOS_StorybookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchOS_StorybookApp.swift; sourceTree = "<group>"; };
+		7827E67B2A335EE400BBCDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7827E67D2A335EE500BBCDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7827E6802A335EE500BBCDEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7827E6862A335EE500BBCDEF /* WatchOS Storybook Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchOS Storybook Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7827E68A2A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchOS_Storybook_Watch_AppTests.swift; sourceTree = "<group>"; };
+		7827E6902A335EE500BBCDEF /* WatchOS Storybook Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchOS Storybook Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7827E6942A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchOS_Storybook_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		7827E6962A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchOS_Storybook_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7827E6A62A335F3500BBCDEF /* Reminders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reminders.xcdatamodel; sourceTree = "<group>"; };
+		7827E6AA2A3360EA00BBCDEF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7827E6AD2A33612200BBCDEF /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
+		7827E6AF2A33614000BBCDEF /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		7827E6B72A3361A900BBCDEF /* NotifcationSchedulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifcationSchedulerView.swift; sourceTree = "<group>"; };
+		7827E6C12A336AA700BBCDEF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7827E6C32A336AF700BBCDEF /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		7827E6C52A336B0000BBCDEF /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		7827E6C72A336B0C00BBCDEF /* AddRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRemindersView.swift; sourceTree = "<group>"; };
+		7827E6C92A336B1500BBCDEF /* EditListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListView.swift; sourceTree = "<group>"; };
+		7827E6CB2A336B2200BBCDEF /* Edit_DeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit_DeleteView.swift; sourceTree = "<group>"; };
+		7827E6CD2A336B3300BBCDEF /* NotificationSchedulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSchedulerView.swift; sourceTree = "<group>"; };
+		7827E6CF2A3394AD00BBCDEF /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
+		782C713B2A446A6B00012AAC /* iOS Version of Storybook Project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS Version of Storybook Project.entitlements"; sourceTree = "<group>"; };
+		782C71452A44C49900012AAC /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		782C71482A45ED8D00012AAC /* RemindersV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersV2.xcdatamodel; sourceTree = "<group>"; };
+		783994B32A375488002E324B /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		783994C12A376B88002E324B /* iOS-Version-of-Storybook-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-Version-of-Storybook-Project-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7827E63E2A335E3500BBCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6532A335E3600BBCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E65D2A335E3600BBCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6742A335EE400BBCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6832A335EE500BBCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E68D2A335EE500BBCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7827E6382A335E3500BBCDEF = {
+			isa = PBXGroup;
+			children = (
+				783994C72A39FC57002E324B /* SharedFiles */,
+				783994C12A376B88002E324B /* iOS-Version-of-Storybook-Project-Info.plist */,
+				7827E6A52A335F3500BBCDEF /* Reminders.xcdatamodeld */,
+				7827E64D2A335E3600BBCDEF /* PersistenceContainer.swift */,
+				7827E6432A335E3500BBCDEF /* iOS Version of Storybook Project */,
+				7827E6592A335E3600BBCDEF /* iOS Version of Storybook ProjectTests */,
+				7827E6632A335E3600BBCDEF /* iOS Version of Storybook ProjectUITests */,
+				7827E6782A335EE400BBCDEF /* WatchOS Storybook Watch App */,
+				7827E6892A335EE500BBCDEF /* WatchOS Storybook Watch AppTests */,
+				7827E6932A335EE500BBCDEF /* WatchOS Storybook Watch AppUITests */,
+				7827E6422A335E3500BBCDEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7827E6422A335E3500BBCDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6412A335E3500BBCDEF /* iOS Version of Storybook Project.app */,
+				7827E6562A335E3600BBCDEF /* iOS Version of Storybook ProjectTests.xctest */,
+				7827E6602A335E3600BBCDEF /* iOS Version of Storybook ProjectUITests.xctest */,
+				7827E6772A335EE400BBCDEF /* WatchOS Storybook Watch App.app */,
+				7827E6862A335EE500BBCDEF /* WatchOS Storybook Watch AppTests.xctest */,
+				7827E6902A335EE500BBCDEF /* WatchOS Storybook Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7827E6432A335E3500BBCDEF /* iOS Version of Storybook Project */ = {
+			isa = PBXGroup;
+			children = (
+				782C713B2A446A6B00012AAC /* iOS Version of Storybook Project.entitlements */,
+				7827E6C02A336A8600BBCDEF /* IOSFiles */,
+				7827E6442A335E3500BBCDEF /* iOS_Version_of_Storybook_ProjectApp.swift */,
+				7827E6462A335E3500BBCDEF /* ContentView.swift */,
+				7827E6482A335E3600BBCDEF /* Assets.xcassets */,
+				7827E64F2A335E3600BBCDEF /* iOS_Version_of_Storybook_Project.xcdatamodeld */,
+				7827E64A2A335E3600BBCDEF /* Preview Content */,
+			);
+			path = "iOS Version of Storybook Project";
+			sourceTree = "<group>";
+		};
+		7827E64A2A335E3600BBCDEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7827E64B2A335E3600BBCDEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7827E6592A335E3600BBCDEF /* iOS Version of Storybook ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7827E65A2A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectTests.swift */,
+			);
+			path = "iOS Version of Storybook ProjectTests";
+			sourceTree = "<group>";
+		};
+		7827E6632A335E3600BBCDEF /* iOS Version of Storybook ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6642A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITests.swift */,
+				7827E6662A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "iOS Version of Storybook ProjectUITests";
+			sourceTree = "<group>";
+		};
+		7827E6782A335EE400BBCDEF /* WatchOS Storybook Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6AC2A3360FF00BBCDEF /* WatchOSFIles */,
+				7827E6792A335EE400BBCDEF /* WatchOS_StorybookApp.swift */,
+				7827E67B2A335EE400BBCDEF /* ContentView.swift */,
+				7827E67D2A335EE500BBCDEF /* Assets.xcassets */,
+				7827E67F2A335EE500BBCDEF /* Preview Content */,
+			);
+			path = "WatchOS Storybook Watch App";
+			sourceTree = "<group>";
+		};
+		7827E67F2A335EE500BBCDEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6802A335EE500BBCDEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7827E6892A335EE500BBCDEF /* WatchOS Storybook Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7827E68A2A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppTests.swift */,
+			);
+			path = "WatchOS Storybook Watch AppTests";
+			sourceTree = "<group>";
+		};
+		7827E6932A335EE500BBCDEF /* WatchOS Storybook Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6942A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITests.swift */,
+				7827E6962A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WatchOS Storybook Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		7827E6AC2A3360FF00BBCDEF /* WatchOSFIles */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6D62A33990100BBCDEF /* ViewModel */,
+				7827E6D52A3398F300BBCDEF /* Model */,
+				7827E6D42A3398D300BBCDEF /* View */,
+			);
+			path = WatchOSFIles;
+			sourceTree = "<group>";
+		};
+		7827E6C02A336A8600BBCDEF /* IOSFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6D32A3398A300BBCDEF /* ViewModel */,
+				7827E6D22A33988400BBCDEF /* View */,
+				7827E6D12A33987C00BBCDEF /* Model */,
+			);
+			path = IOSFiles;
+			sourceTree = "<group>";
+		};
+		7827E6D12A33987C00BBCDEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				783994B32A375488002E324B /* WatchConnector.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7827E6D22A33988400BBCDEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6C12A336AA700BBCDEF /* HomeView.swift */,
+				7827E6C52A336B0000BBCDEF /* RemindersView.swift */,
+				7827E6CD2A336B3300BBCDEF /* NotificationSchedulerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7827E6D32A3398A300BBCDEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6C32A336AF700BBCDEF /* ButtonStyles.swift */,
+				7827E6CF2A3394AD00BBCDEF /* NavButton.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7827E6D42A3398D300BBCDEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6AA2A3360EA00BBCDEF /* HomeView.swift */,
+				7827E6AF2A33614000BBCDEF /* RemindersView.swift */,
+				7827E6B72A3361A900BBCDEF /* NotifcationSchedulerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7827E6D52A3398F300BBCDEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7827E6D62A33990100BBCDEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6AD2A33612200BBCDEF /* NavButton.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		783994C72A39FC57002E324B /* SharedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7827E6C72A336B0C00BBCDEF /* AddRemindersView.swift */,
+				7827E6C92A336B1500BBCDEF /* EditListView.swift */,
+				7827E6CB2A336B2200BBCDEF /* Edit_DeleteView.swift */,
+				782C71452A44C49900012AAC /* EditView.swift */,
+			);
+			path = SharedFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7827E6402A335E3500BBCDEF /* iOS Version of Storybook Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7827E66A2A335E3600BBCDEF /* Build configuration list for PBXNativeTarget "iOS Version of Storybook Project" */;
+			buildPhases = (
+				7827E63D2A335E3500BBCDEF /* Sources */,
+				7827E63E2A335E3500BBCDEF /* Frameworks */,
+				7827E63F2A335E3500BBCDEF /* Resources */,
+				7827E69E2A335EE500BBCDEF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7827E6992A335EE500BBCDEF /* PBXTargetDependency */,
+			);
+			name = "iOS Version of Storybook Project";
+			productName = "iOS Version of Storybook Project";
+			productReference = 7827E6412A335E3500BBCDEF /* iOS Version of Storybook Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7827E6552A335E3600BBCDEF /* iOS Version of Storybook ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7827E66D2A335E3600BBCDEF /* Build configuration list for PBXNativeTarget "iOS Version of Storybook ProjectTests" */;
+			buildPhases = (
+				7827E6522A335E3600BBCDEF /* Sources */,
+				7827E6532A335E3600BBCDEF /* Frameworks */,
+				7827E6542A335E3600BBCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7827E6582A335E3600BBCDEF /* PBXTargetDependency */,
+			);
+			name = "iOS Version of Storybook ProjectTests";
+			productName = "iOS Version of Storybook ProjectTests";
+			productReference = 7827E6562A335E3600BBCDEF /* iOS Version of Storybook ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7827E65F2A335E3600BBCDEF /* iOS Version of Storybook ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7827E6702A335E3600BBCDEF /* Build configuration list for PBXNativeTarget "iOS Version of Storybook ProjectUITests" */;
+			buildPhases = (
+				7827E65C2A335E3600BBCDEF /* Sources */,
+				7827E65D2A335E3600BBCDEF /* Frameworks */,
+				7827E65E2A335E3600BBCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7827E6622A335E3600BBCDEF /* PBXTargetDependency */,
+			);
+			name = "iOS Version of Storybook ProjectUITests";
+			productName = "iOS Version of Storybook ProjectUITests";
+			productReference = 7827E6602A335E3600BBCDEF /* iOS Version of Storybook ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7827E6762A335EE400BBCDEF /* WatchOS Storybook Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7827E69B2A335EE500BBCDEF /* Build configuration list for PBXNativeTarget "WatchOS Storybook Watch App" */;
+			buildPhases = (
+				7827E6732A335EE400BBCDEF /* Sources */,
+				7827E6742A335EE400BBCDEF /* Frameworks */,
+				7827E6752A335EE400BBCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchOS Storybook Watch App";
+			productName = "WatchOS Storybook Watch App";
+			productReference = 7827E6772A335EE400BBCDEF /* WatchOS Storybook Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7827E6852A335EE500BBCDEF /* WatchOS Storybook Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7827E69F2A335EE500BBCDEF /* Build configuration list for PBXNativeTarget "WatchOS Storybook Watch AppTests" */;
+			buildPhases = (
+				7827E6822A335EE500BBCDEF /* Sources */,
+				7827E6832A335EE500BBCDEF /* Frameworks */,
+				7827E6842A335EE500BBCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7827E6882A335EE500BBCDEF /* PBXTargetDependency */,
+			);
+			name = "WatchOS Storybook Watch AppTests";
+			productName = "WatchOS Storybook Watch AppTests";
+			productReference = 7827E6862A335EE500BBCDEF /* WatchOS Storybook Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7827E68F2A335EE500BBCDEF /* WatchOS Storybook Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7827E6A22A335EE500BBCDEF /* Build configuration list for PBXNativeTarget "WatchOS Storybook Watch AppUITests" */;
+			buildPhases = (
+				7827E68C2A335EE500BBCDEF /* Sources */,
+				7827E68D2A335EE500BBCDEF /* Frameworks */,
+				7827E68E2A335EE500BBCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7827E6922A335EE500BBCDEF /* PBXTargetDependency */,
+			);
+			name = "WatchOS Storybook Watch AppUITests";
+			productName = "WatchOS Storybook Watch AppUITests";
+			productReference = 7827E6902A335EE500BBCDEF /* WatchOS Storybook Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7827E6392A335E3500BBCDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7827E6402A335E3500BBCDEF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7827E6552A335E3600BBCDEF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7827E6402A335E3500BBCDEF;
+					};
+					7827E65F2A335E3600BBCDEF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7827E6402A335E3500BBCDEF;
+					};
+					7827E6762A335EE400BBCDEF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7827E6852A335EE500BBCDEF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7827E6762A335EE400BBCDEF;
+					};
+					7827E68F2A335EE500BBCDEF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7827E6762A335EE400BBCDEF;
+					};
+				};
+			};
+			buildConfigurationList = 7827E63C2A335E3500BBCDEF /* Build configuration list for PBXProject "iOS Version of Storybook Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7827E6382A335E3500BBCDEF;
+			productRefGroup = 7827E6422A335E3500BBCDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7827E6402A335E3500BBCDEF /* iOS Version of Storybook Project */,
+				7827E6552A335E3600BBCDEF /* iOS Version of Storybook ProjectTests */,
+				7827E65F2A335E3600BBCDEF /* iOS Version of Storybook ProjectUITests */,
+				7827E6762A335EE400BBCDEF /* WatchOS Storybook Watch App */,
+				7827E6852A335EE500BBCDEF /* WatchOS Storybook Watch AppTests */,
+				7827E68F2A335EE500BBCDEF /* WatchOS Storybook Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7827E63F2A335E3500BBCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827E64C2A335E3600BBCDEF /* Preview Assets.xcassets in Resources */,
+				7827E6492A335E3600BBCDEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6542A335E3600BBCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E65E2A335E3600BBCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6752A335EE400BBCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783994C32A376B88002E324B /* iOS-Version-of-Storybook-Project-Info.plist in Resources */,
+				7827E6812A335EE500BBCDEF /* Preview Assets.xcassets in Resources */,
+				7827E67E2A335EE500BBCDEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6842A335EE500BBCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E68E2A335EE500BBCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7827E63D2A335E3500BBCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827E6D02A3394AD00BBCDEF /* NavButton.swift in Sources */,
+				7827E64E2A335E3600BBCDEF /* PersistenceContainer.swift in Sources */,
+				7827E6472A335E3500BBCDEF /* ContentView.swift in Sources */,
+				7827E6CC2A336B2200BBCDEF /* Edit_DeleteView.swift in Sources */,
+				7827E6C62A336B0000BBCDEF /* RemindersView.swift in Sources */,
+				7827E6512A335E3600BBCDEF /* iOS_Version_of_Storybook_Project.xcdatamodeld in Sources */,
+				7827E6CA2A336B1500BBCDEF /* EditListView.swift in Sources */,
+				7827E6A72A335F3500BBCDEF /* Reminders.xcdatamodeld in Sources */,
+				7827E6CE2A336B3300BBCDEF /* NotificationSchedulerView.swift in Sources */,
+				783994B42A375488002E324B /* WatchConnector.swift in Sources */,
+				7827E6452A335E3500BBCDEF /* iOS_Version_of_Storybook_ProjectApp.swift in Sources */,
+				782C71462A44C49900012AAC /* EditView.swift in Sources */,
+				7827E6C22A336AA700BBCDEF /* HomeView.swift in Sources */,
+				7827E6C42A336AF700BBCDEF /* ButtonStyles.swift in Sources */,
+				7827E6C82A336B0C00BBCDEF /* AddRemindersView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6522A335E3600BBCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827E65B2A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E65C2A335E3600BBCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827E6652A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITests.swift in Sources */,
+				7827E6672A335E3600BBCDEF /* iOS_Version_of_Storybook_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6732A335EE400BBCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827E6AB2A3360EA00BBCDEF /* HomeView.swift in Sources */,
+				783994B92A375BF0002E324B /* WatchConnector.swift in Sources */,
+				783994C92A3A0BA6002E324B /* Edit_DeleteView.swift in Sources */,
+				7827E67C2A335EE400BBCDEF /* ContentView.swift in Sources */,
+				782C71472A44C49900012AAC /* EditView.swift in Sources */,
+				7827E6B02A33614000BBCDEF /* RemindersView.swift in Sources */,
+				7827E67A2A335EE400BBCDEF /* WatchOS_StorybookApp.swift in Sources */,
+				7827E6BF2A33668500BBCDEF /* Reminders.xcdatamodeld in Sources */,
+				7827E6AE2A33612200BBCDEF /* NavButton.swift in Sources */,
+				7827E6D72A33A14500BBCDEF /* PersistenceContainer.swift in Sources */,
+				783994B82A375A32002E324B /* EditListView.swift in Sources */,
+				7827E6B82A3361A900BBCDEF /* NotifcationSchedulerView.swift in Sources */,
+				783994C82A39FD00002E324B /* ButtonStyles.swift in Sources */,
+				783994C62A39FB58002E324B /* AddRemindersView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E6822A335EE500BBCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827E68B2A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827E68C2A335EE500BBCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827E6952A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITests.swift in Sources */,
+				7827E6972A335EE500BBCDEF /* WatchOS_Storybook_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7827E6582A335E3600BBCDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7827E6402A335E3500BBCDEF /* iOS Version of Storybook Project */;
+			targetProxy = 7827E6572A335E3600BBCDEF /* PBXContainerItemProxy */;
+		};
+		7827E6622A335E3600BBCDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7827E6402A335E3500BBCDEF /* iOS Version of Storybook Project */;
+			targetProxy = 7827E6612A335E3600BBCDEF /* PBXContainerItemProxy */;
+		};
+		7827E6882A335EE500BBCDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7827E6762A335EE400BBCDEF /* WatchOS Storybook Watch App */;
+			targetProxy = 7827E6872A335EE500BBCDEF /* PBXContainerItemProxy */;
+		};
+		7827E6922A335EE500BBCDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7827E6762A335EE400BBCDEF /* WatchOS Storybook Watch App */;
+			targetProxy = 7827E6912A335EE500BBCDEF /* PBXContainerItemProxy */;
+		};
+		7827E6992A335EE500BBCDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7827E6762A335EE400BBCDEF /* WatchOS Storybook Watch App */;
+			targetProxy = 7827E6982A335EE500BBCDEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7827E6682A335E3600BBCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7827E6692A335E3600BBCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7827E66B2A335E3600BBCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS Version of Storybook Project/iOS Version of Storybook Project.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Version of Storybook Project/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Version-of-Storybook-Project-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-Version-of-Storybook-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7827E66C2A335E3600BBCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS Version of Storybook Project/iOS Version of Storybook Project.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Version of Storybook Project/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Version-of-Storybook-Project-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-Version-of-Storybook-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7827E66E2A335E3600BBCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-Version-of-Storybook-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Version of Storybook Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Version of Storybook Project";
+			};
+			name = Debug;
+		};
+		7827E66F2A335E3600BBCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-Version-of-Storybook-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Version of Storybook Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Version of Storybook Project";
+			};
+			name = Release;
+		};
+		7827E6712A335E3600BBCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-Version-of-Storybook-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Version of Storybook Project";
+			};
+			name = Debug;
+		};
+		7827E6722A335E3600BBCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-Version-of-Storybook-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Version of Storybook Project";
+			};
+			name = Release;
+		};
+		7827E69C2A335EE500BBCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchOS Storybook Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchOS-Storybook-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchOS Storybook";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.example.iOS-Version-of-Storybook-Project";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-Version-of-Storybook-Project.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		7827E69D2A335EE500BBCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchOS Storybook Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchOS-Storybook-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchOS Storybook";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.example.iOS-Version-of-Storybook-Project";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-Version-of-Storybook-Project.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		7827E6A02A335EE500BBCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WatchOS-Storybook-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchOS Storybook Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchOS Storybook Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		7827E6A12A335EE500BBCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WatchOS-Storybook-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchOS Storybook Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchOS Storybook Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		7827E6A32A335EE500BBCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WatchOS-Storybook-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchOS Storybook Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		7827E6A42A335EE500BBCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WatchOS-Storybook-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchOS Storybook Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7827E63C2A335E3500BBCDEF /* Build configuration list for PBXProject "iOS Version of Storybook Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827E6682A335E3600BBCDEF /* Debug */,
+				7827E6692A335E3600BBCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7827E66A2A335E3600BBCDEF /* Build configuration list for PBXNativeTarget "iOS Version of Storybook Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827E66B2A335E3600BBCDEF /* Debug */,
+				7827E66C2A335E3600BBCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7827E66D2A335E3600BBCDEF /* Build configuration list for PBXNativeTarget "iOS Version of Storybook ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827E66E2A335E3600BBCDEF /* Debug */,
+				7827E66F2A335E3600BBCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7827E6702A335E3600BBCDEF /* Build configuration list for PBXNativeTarget "iOS Version of Storybook ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827E6712A335E3600BBCDEF /* Debug */,
+				7827E6722A335E3600BBCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7827E69B2A335EE500BBCDEF /* Build configuration list for PBXNativeTarget "WatchOS Storybook Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827E69C2A335EE500BBCDEF /* Debug */,
+				7827E69D2A335EE500BBCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7827E69F2A335EE500BBCDEF /* Build configuration list for PBXNativeTarget "WatchOS Storybook Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827E6A02A335EE500BBCDEF /* Debug */,
+				7827E6A12A335EE500BBCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7827E6A22A335EE500BBCDEF /* Build configuration list for PBXNativeTarget "WatchOS Storybook Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827E6A32A335EE500BBCDEF /* Debug */,
+				7827E6A42A335EE500BBCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7827E64F2A335E3600BBCDEF /* iOS_Version_of_Storybook_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7827E6502A335E3600BBCDEF /* iOS_Version_of_Storybook_Project.xcdatamodel */,
+			);
+			currentVersion = 7827E6502A335E3600BBCDEF /* iOS_Version_of_Storybook_Project.xcdatamodel */;
+			path = iOS_Version_of_Storybook_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		7827E6A52A335F3500BBCDEF /* Reminders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				782C71482A45ED8D00012AAC /* RemindersV2.xcdatamodel */,
+				7827E6A62A335F3500BBCDEF /* Reminders.xcdatamodel */,
+			);
+			currentVersion = 7827E6A62A335F3500BBCDEF /* Reminders.xcdatamodel */;
+			path = Reminders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7827E6392A335E3500BBCDEF /* Project object */;
+}
